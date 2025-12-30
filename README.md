@@ -1,18 +1,18 @@
-🧠 AI Live Chat Support Agent
+#🧠 AI Live Chat Support Agent
 
 A full-stack AI-powered customer support chat system built as part of the Spur Founding Full-Stack Engineer assignment.
 This application simulates a real customer support environment where users interact with an AI agent via a live chat interface, with full conversation persistence, session handling, and robust production-grade architecture.
 
 ⸻
 
-🚀 Live Demo
+#🚀 Live Demo
 
-Frontend: PASTE YOUR VERCEL LINK HERE
+Frontend: https://spur.uditchaudhary.in/
 Backend API: https://chat-backend-ofkg.onrender.com
 
 ⸻
 
-🧩 Features
+#🧩 Features
 	•	💬 Real-time chat interface
 	•	🤖 AI responses using Google Gemini
 	•	🧾 Conversation persistence with MongoDB
@@ -23,14 +23,14 @@ Backend API: https://chat-backend-ofkg.onrender.com
 
 ⸻
 
-🏗️ Tech Stack
+#🏗️ Tech Stack
 
 Frontend
 	•	React (Vite)
 	•	Tailwind CSS
 	•	React Markdown
 
-Backend
+#Backend
 	•	Node.js + TypeScript
 	•	Express
 	•	MongoDB (Mongoose)

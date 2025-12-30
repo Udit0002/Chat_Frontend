@@ -66,14 +66,18 @@ git clone <repo_url>
 cd project
 ```
 
-### 2️⃣ Backend Setup
+---
+
+## 🧠 Backend Setup
+
+### 2️⃣ Install Backend Dependencies
 
 ```bash
 cd backend
 npm install
 ```
 
-### Create `.env`
+### 3️⃣ Create `.env` file
 
 ```env
 PORT=3000
@@ -81,10 +85,52 @@ MONGO_URI=<your_mongodb_connection_string>
 GEMINI_API_KEY=<your_gemini_api_key>
 ```
 
-### ▶️ Run Backend
+### ▶️ Run Backend Server
 
 ```bash
 npm run dev
 ```
+
+Backend will run on: **http://localhost:3000**
+
+---
+
+## 🎨 Frontend Setup
+
+### 4️⃣ Install Frontend Dependencies
+
+Open a new terminal tab:
+
+```bash
+cd frontend
+npm install
+```
+
+### ▶️ Run Frontend Server
+
+```bash
+npm run dev
+```
+
+Frontend will run on: **http://localhost:5173**
+
+---
+
+## 🔗 System Flow
+
+```
+Frontend (React / Vite)
+        ↓
+Backend API (Node / Express)
+        ↓
+MongoDB + Gemini AI
+```
+
+---
+
+## ✅ You're Live
+
+Open your browser and enjoy your app running locally.  
+Both servers must stay running simultaneously 🧑‍💻✨
 
 

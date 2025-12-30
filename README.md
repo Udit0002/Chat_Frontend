@@ -1,18 +1,23 @@
-##🧠 AI Live Chat Support Agent
+# 🚀 AI LIVE CHAT SUPPORT AGENT
 
-A full-stack AI-powered customer support chat system built as part of the Spur Founding Full-Stack Engineer assignment.
-This application simulates a real customer support environment where users interact with an AI agent via a live chat interface, with full conversation persistence, session handling, and robust production-grade architecture.
+This project is a AI customer support system designed to simulate how modern companies build and deploy intelligent chat agents at scale.
 
-⸻
+The application allows users to communicate with an AI agent through a clean, responsive chat interface. Every message is processed by a robust backend service, enriched with full conversation history, securely stored in a database, and sent to a large language model for contextual response generation. The result is an AI that behaves like a real support agent, maintaining memory, understanding context, and responding reliably across sessions.
 
-###🚀 Live Demo
+Unlike basic chatbot demos, this system is built with real engineering constraints in mind:
+reliability, scalability, security, and maintainability.
+All AI logic is centralized in the backend, protecting API keys and allowing the frontend to remain lightweight and safe. Conversation state is persisted in the database, enabling session continuity and horizontal scaling. The architecture cleanly separates concerns across API routing, business logic, AI services, and data storage, mirroring how production systems are structured in real engineering teams.
 
-Frontend: https://spur.uditchaudhary.in
-Backend API: https://chat-backend-ofkg.onrender.com
+From user experience to infrastructure, the project demonstrates how an AI-powered feature moves from an idea to a fully deployed, real-world product.
 
-⸻
 
-###🧩 Features
+## 🌐 LIVE APPLICATION
+
+**Frontend:** https://spur.uditchaudhary.in
+
+**Backend API:** https://chat-backend-ofkg.onrender.com
+
+## 🧩 Features
 	•	💬 Real-time chat interface
 	•	🤖 AI responses using Google Gemini
 	•	🧾 Conversation persistence with MongoDB
@@ -21,24 +26,25 @@ Backend API: https://chat-backend-ofkg.onrender.com
 	•	🛡️ Input validation and graceful error handling
 	•	⚡ Clean, scalable backend architecture
 
-⸻
 
-##🏗️ Tech Stack
 
-###Frontend
+## 🏗️ Tech Stack
+
+### Frontend
 	•	React (Vite)
 	•	Tailwind CSS
 	•	React Markdown
 
-###Backend
+### Backend
 	•	Node.js + TypeScript
 	•	Express
 	•	MongoDB (Mongoose)
 	•	Google Gemini API
 
-⸻
 
-##🧬 System Architecture
+
+## 🧬 System Architecture
+```
 Client (React UI)
         ↓
 REST API Layer (Express)
@@ -48,6 +54,7 @@ Service Layer (LLM, Business Logic)
 Data Layer (MongoDB Models)
         ↓
 External Systems (Google Gemini API)
+```
 
 
 ## 🛠️ API Endpoints
